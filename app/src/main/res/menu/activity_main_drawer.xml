@@ -5,16 +5,45 @@
 
     <group android:checkableBehavior="single">
         <item
-            android:id="@+id/nav_home"
-            android:icon="@drawable/ic_menu_camera"
-            android:title="@string/menu_home" />
+            android:id="@+id/menu_bir"
+            android:icon="@drawable/menu_balik_bir"
+            android:title="@string/baslik_bir" />
         <item
-            android:id="@+id/nav_gallery"
-            android:icon="@drawable/ic_menu_gallery"
-            android:title="@string/menu_gallery" />
+            android:id="@+id/menu_iki"
+            android:icon="@drawable/menu_baslik_iki"
+            android:title="@string/baslik_iki" />
         <item
-            android:id="@+id/nav_slideshow"
-            android:icon="@drawable/ic_menu_slideshow"
-            android:title="@string/menu_slideshow" />
+            android:id="@+id/menu_uc"
+            android:icon="@drawable/menu_baslik_uc"
+            android:title="@string/baslik_uc" />
+        <item
+            android:id="@+id/menu_dort"
+            android:icon="@drawable/menu_baslik_dort"
+            android:title="@string/baslik_dort" />
+        <item
+            android:id="@+id/menu_bes"
+            android:icon="@drawable/menu_baslik_bes"
+            android:title="@string/baslik_bes" />
+        <item
+            android:id="@+id/menu_alti"
+            android:icon="@drawable/menu_baslik_alti"
+            android:title="@string/baslik_alti" />
+        <item
+            android:id="@+id/menu_yedi"
+            android:icon="@drawable/menu_baslik_yedi"
+            android:title="@string/baslik_yedi" />
+        <item
+            android:id="@+id/menu_sekiz"
+            android:icon="@drawable/menu_baslik_sekiz"
+            android:title="@string/baslik_sekiz" />
+        <item
+            android:id="@+id/menu_dokuz"
+            android:icon="@drawable/menu_baslik_dokuz"
+            android:title="@string/baslik_dokuz" />
+        <item
+            android:id="@+id/menu_on"
+            android:icon="@drawable/menu_baslik_on"
+            android:title="@string/baslik_on" />
+
     </group>
 </menu>

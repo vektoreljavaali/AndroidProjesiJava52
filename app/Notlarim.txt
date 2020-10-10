@@ -1,0 +1,4 @@
+RESİM EKELEME
+Resim ekleme yapacak iseniz, resimin ne için kullanılacağına bakın
+-- Tab bar, İcon, Resim, Button Iconu
+-- Proje içinde değişken boyutlar için resim kullanacak iseniz o zaman
