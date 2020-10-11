@@ -3,28 +3,58 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:id="@+id/mobile_navigation"
-    app:startDestination="@+id/nav_home">
+    app:startDestination="@+id/nav_bir">
 
     <fragment
-        android:id="@+id/nav_home"
-        android:name="com.vektorel.ui.home.HomeFragment"
+        android:id="@+id/nav_bir"
+        android:name="com.vektorel.fragments.BaslikBirFragment"
         android:label="@string/menu_home"
-        tools:layout="@layout/fragment_home" />
+        tools:layout="@layout/fragment_baslik_bir" />
 
     <fragment
-        android:id="@+id/nav_gallery"
-        android:name="com.vektorel.ui.gallery.GalleryFragment"
+        android:id="@+id/nav_iki"
+        android:name="com.vektorel.fragments.BaslikIkiFragment"
         android:label="@string/menu_gallery"
-        tools:layout="@layout/fragment_gallery" />
+        tools:layout="@layout/fragment_baslik_iki" />
 
     <fragment
-        android:id="@+id/nav_slideshow"
-        android:name="com.vektorel.ui.slideshow.SlideshowFragment"
+        android:id="@+id/nav_uc"
+        android:name="com.vektorel.fragments.Baslik_UcFragment"
         android:label="@string/menu_slideshow"
-        tools:layout="@layout/fragment_slideshow" />
+        tools:layout="@layout/fragment_baslik__uc" />
     <fragment
-        android:id="@+id/notifications"
-        android:name="com.vektorel.Notifications"
+        android:id="@+id/nav_dort"
+        android:name="com.vektorel.fragments.BaslikDortFragment"
         android:label="fragment_notifications"
-        tools:layout="@layout/fragment_notifications" />
+        tools:layout="@layout/fragment_baslik_dort" />
+    <fragment
+        android:id="@+id/nav_bes"
+        android:name="com.vektorel.fragments.BaslikBesFragment"
+        android:label="fragment_baslik_bes"
+        tools:layout="@layout/fragment_baslik_bes" />
+    <fragment
+        android:id="@+id/nav_alti"
+        android:name="com.vektorel.fragments.BaslikAltiFragment"
+        android:label="fragment_baslik_alti"
+        tools:layout="@layout/fragment_baslik_alti" />
+    <fragment
+        android:id="@+id/nav_yedi"
+        android:name="com.vektorel.fragments.BaslikYediFragment"
+        android:label="fragment_baslik_yedi"
+        tools:layout="@layout/fragment_baslik_yedi" />
+    <fragment
+        android:id="@+id/nav_sekiz"
+        android:name="com.vektorel.fragments.BaslikSekizFragment"
+        android:label="fragment_baslik_sekiz"
+        tools:layout="@layout/fragment_baslik_sekiz" />
+    <fragment
+        android:id="@+id/nav_dokuz"
+        android:name="com.vektorel.fragments.BaslikDokuzFragment"
+        android:label="fragment_baslik_dokuz"
+        tools:layout="@layout/fragment_baslik_dokuz" />
+    <fragment
+        android:id="@+id/nav_on"
+        android:name="com.vektorel.fragments.BaslikOnFragment"
+        android:label="fragment_baslik_on"
+        tools:layout="@layout/fragment_baslik_on" />
 </navigation>
